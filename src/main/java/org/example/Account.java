@@ -14,7 +14,7 @@ public class Account {
         }
 
         // Проверяем длину строки
-        if (name.length() < 3 || name.length() > 19) {
+        if (name.length() < 4 || name.length() > 19) {
             return false;
         }
 
